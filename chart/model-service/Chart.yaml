@@ -1,0 +1,20 @@
+annotations:
+  category: Infrastructure
+apiVersion: v2
+appVersion: 1.0.0
+dependencies:
+  - name: common
+    repository: https://openchart.choerodon.com.cn/choerodon/c7n
+    version: 1.x.x
+description: A Helm chart for Kubernetes
+name: {{service.code}}
+engine: gotpl
+icon: https://ui-avatars.com/api/?name={{service.code}}
+keywords:
+  - choerodon
+  - {{service.code}}
+maintainers: []
+  # - email: user@choerodon.io
+  #   name: user
+  #   url: https://github.com/user
+version: 1.0.0
