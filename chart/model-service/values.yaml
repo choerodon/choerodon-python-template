@@ -75,7 +75,7 @@ extraEnvVarsSecret: ""
 
 # -- Container's working directory(Default mountPath).
 ##
-workingDir: 
+workingDir: /app
 
 # -- Command for running the service container (set to default if not set). Use array form
 ##

@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.12-alpine
 
 RUN pip config set global.index-url https://mirrors.aliyun.com/pypi/simple
 COPY . /app
